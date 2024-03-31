@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "tsc watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.9.1",
+    "dotenv": "^16.4.5",
+    "hono": "^4.1.7",
+    "stripe": "^14.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "tsx": "^4.7.1"
+  }
+}
